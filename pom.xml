@@ -117,7 +117,7 @@
 	      <url>http://13.233.147.95:8081/repository/amazon-release/</url>
 	    </repository>
 	    
-	    <snapshotRepository>
+	    <snapshotRepository> 
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://13.233.147.95:8081/repository/amazon-snapshot/</url>
