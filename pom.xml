@@ -28,14 +28,9 @@
     	<!-- The destination file for the code coverage report has to be set to the same value
          in the parent pom and in each module pom. Then JaCoCo will add up information in
          the same report, so that, it will give the cross-module code coverage. -->
-	  
-	  
-	  
-	  
-	  <!--
+	 
      	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
-        <sonar.groovy.binaries>target/classes</sonar.groovy.binaries> -->
-	  
+        <sonar.groovy.binaries>target/classes</sonar.groovy.binaries> 
 	  
 	  
 	  
@@ -115,7 +110,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <sonar.host.url>http://localhost:9000/</sonar.host.url>
+                <sonar.host.url>http://13.232.246.90:9000/</sonar.host.url>
      <sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
             </properties>
             <build>
